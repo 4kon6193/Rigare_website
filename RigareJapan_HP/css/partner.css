@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+.partner-title {
+	background-color: azure;
+	padding: 100px 100px 50px 100px;
+}
+
+.partner-title p {
+	padding: 0 0 30px 20px;
+}
+
+.partner-box1 {
+	background-color: darkcyan;
+	padding: 100px 100px;
+}
+
+.partner-box1 p {
+	padding: 50px 0 30px 20px;
+}
+
+.partner-box2 {
+	background-color: goldenrod;
+	padding: 100px 100px;
+}
+
+.partner-box2 p {
+	padding: 50px 0 30px 20px;
+}
+
+.partner-image2 {
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+
+.partner-image2 img {
+	max-width: 70%;
+	box-sizing: border-box;
+}

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+.service-title {
+	background-color: azure;
+	padding: 100px 100px 50px 100px;
+}
+
+.service-title h2 {
+	padding: 0 0 30px 0;
+}
+
+.service-title p {
+	padding: 0 0 30px 20px;
+}
+
+.rigare-strong {
+	background-color: darkkhaki;
+	padding: 100px 0;
+}
+
+.rigare-strong h2 {
+	background-color: darkkhaki;
+	padding: 0 100px;
+}
+
+.rigare-strong p {
+	padding: 20px 100px;
+}
+
+.service-icon  {
+	text-align: center;
+	list-style: none;
+    box-sizing: border-box;
+	padding: 100px 0;
+	margin-bottom: 50px;
+	display: inline-block;
+	border-bottom: 1px solid #212121;
+}
+
+.img-boxs {
+	background-color: blueviolet;
+	border-bottom: 1px solid #212121;
+	overflow: hidden;
+	padding: 100px 0;
+}
+
+.img-box {
+	position: relative;
+	width: 20%;
+	float: left;
+}
+
+.img-box img{
+	max-width: 55%;  /*画像のはみだしを防ぐ*/
+}
+
+.img-box .active {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: 0.5s; /*ゆっくり*/
+}
+.img-box:hover .active {
+	opacity: 1;
+}

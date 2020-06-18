@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+.recruit-title {
+	background-color: azure;
+	padding: 100px 100px 50px 100px;
+}
+
+.recruit-title-title p {
+	padding: 0 0 30px 20px;
+}
+
+.recruit-box1 {
+	background-color: darkcyan;
+	padding: 100px 100px;
+}
+
+.recruit-box1 p {
+	padding: 50px 0 30px 20px;
+}
+
+.recruit-image1 {
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+
+.recruit-image1 img {
+	max-width: 70%;
+	box-sizing: border-box;
+}
+
+.recruit-box2 {
+	background-color: darkgoldenrod;
+	padding: 100px 100px;
+}
+
+.recruit-box2 p {
+	padding: 50px 100px 30px 20px;
+	float: left;
+}
+
+.recruit-image2 {
+	padding: 20px 0 0 0;
+}
+
+.recruit-image2 img {
+	max-width: 40%;
+	box-sizing: border-box;
+}
+
+.recruit-box3 {
+	background-color: cadetblue;
+	padding: 100px 100px;
+}
+
+.recruit-box3 p {
+	padding: 50px 0 30px 20px;
+}
+
+.recruit-image3 {
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+
+.recruit-image3 img {
+	max-width: 70%;
+	box-sizing: border-box;
+}
+
+.recruit-box4 {
+	background-color: darkgoldenrod;
+	padding: 100px 100px;
+	overflow: hidden;
+}
+
+.recruit-box4 p {
+	padding: 50px 130px 30px 20px;
+	float: left;
+}
+
+.recruit-image4 {
+	padding: 20px 0 0 0;
+}
+
+.recruit-image4 img {
+	max-width: 40%;
+	box-sizing: border-box;
+	float: left;
+}

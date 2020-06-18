@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+.saiyo-title {
+	background-color: azure;
+	padding: 100px 100px 50px 100px;
+}
+
+.saiyo-title h4 {
+	padding: 0 0 30px 10px;
+}
+
+.saiyo-title p {
+	padding: 0 0 30px 20px;
+}
+
+.saiyo-box1 {
+	background-color: darkcyan;
+	padding: 100px 0;
+}
+
+.saiyo-box1 h2,p {
+	padding: 0 100px;
+}
+
+.saiyo-box1 p {
+	padding-top: 20px;
+}
+
+.jinzai-image {
+	text-align: center;
+}
+
+.jinzai-image img {
+	margin: 100px 0px 30px 0;
+	max-width: 70%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+.saiyo-box2 {
+	background-color: darkgoldenrod;
+	padding: 100px 0;
+}
+
+.saiyo-box2 h2,p {
+	padding: 0 100px;
+}
+
+.saiyo-box2 p {
+	padding-top: 20px;
+}
+
+.shinsotu-image {
+	text-align: center;
+}
+
+.shinsotu-image img {
+	margin: 100px 0px 30px 0;
+	max-width: 70%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+.kaigaijinzai-title {
+	background-color: azure;
+	padding: 100px 100px 50px 100px;
+}
+
+.kaigaijinzai-title h4 {
+	padding: 0 0 30px 10px;
+}
+
+.kaigaijinzai-title p {
+	padding: 0 0 30px 20px;
+}
+
+.kaigaizai-box1 {
+	background-color: darkcyan;
+	padding: 100px 100px;
+}
+
+.kaigaizai-box1 p {
+	padding: 50px 0 30px 20px;
+	float: left;
+}
+
+.kaigaijinzai-image1 {
+	padding: 20px 0 0 0;
+}
+
+.kaigaijinzai-image1 img {
+	max-width: 50%;
+	box-sizing: border-box;
+}
+
+.kaigaizai-box2 {
+	background-color: thistle;
+	padding: 100px 100px 100px 100px;
+}
+
+.kaigaizai-box2 p {
+	padding: 50px 135px 30px 20px;
+	float: left;
+}
+
+.kaigaijinzai-image2 {
+	padding: 50px 0 0 50px;
+}
+
+.kaigaijinzai-image2 img {
+	max-width: 50%;
+	box-sizing: border-box;
+}
+
+.kaigaizai-box3 {
+	background-color: salmon;
+	padding: 100px 100px;
+}
+
+.kaigaizai-box3 p {
+	padding: 20px 0 30px 20px;
+}
+
+.kaigaijinzai-image3 {
+	text-align: center;
+}
+
+.kaigaijinzai-image3 img {
+	max-width: 70%;
+	box-sizing: border-box;
+}
+
+.kaigaizai-box4 {
+	background-color: tan;
+	padding: 100px 100px;
+}
+
+.kaigaizai-box4 p {
+	padding: 50px 0 30px 20px;
+}
+
+.kaigaijinzai-image4 {
+	text-align: center;
+}
+
+.kaigaijinzai-image4 img {
+	max-width: 70%;
+	box-sizing: border-box;
+}
+
+.kaigaizai-box5 {
+	background-color: cadetblue;
+	padding: 100px 100px;
+}
+.kaigaizai-box5 p {
+	padding: 50px 0 30px 20px;
+}
+
+.kaigaijinzai-image5 {
+	text-align: center;
+}
+
+.kaigaijinzai-image5 img {
+	max-width: 70%;
+	box-sizing: border-box;
+}
+
+.kaigaizai-box6 {
+	padding: 100px 100px;
+}
+
+.kaigaizai-box6 p {
+	padding: 50px 0 30px 20px;
+	float: right;
+}
+
+.kaigaijinzai-image6 {
+	padding: 50px 0 0 0;
+}
+
+.kaigaijinzai-image6 img {
+	max-width: 40%;
+	box-sizing: border-box;
+}
+
+.kaigaizai-box7 {
+	background-color: darkcyan;
+	padding: 100px 100px;
+}
+
+.kaigaizai-box7 p {
+	padding: 50px 0 30px 20px;
+}
+
+.kaigaijinzai-image7 {
+	text-align: center;
+}
+
+.kaigaijinzai-image7 img {
+	max-width: 60%;
+	box-sizing: border-box;
+}
+
+.text-boxs {
+	padding: 100px 100px;
+	margin: 0 100px;
+	overflow: hidden;
+}
+
+.text-box1 {
+	float: left;
+	padding: 0 200px 0 0;
+}
+
+.text-box2 {
+	padding: 0 0 50px 0;
+}
+
+.text-box3 {
+	float: left;
+	padding: 0 55px 0 0;
+}
+
+.text-box4 {
+	
+}
