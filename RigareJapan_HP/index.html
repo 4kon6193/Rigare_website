@@ -22,6 +22,34 @@
 			});
 		});
 </script>
+<script>
+	$(function() {
+	    $(".srevice-box1").hover(function() {
+			$(".chenge_image").attr("src","image/service1.jpg");
+		});
+	});
+	$(function() {
+	    $(".srevice-box2").hover(function() {
+			$(".chenge_image").attr("src","image/service2.jpg");
+		});
+	});
+	$(function() {
+	    $(".srevice-box3").hover(function() {
+			$(".chenge_image").attr("src","image/service3.jpg");
+		});
+	});
+</script>
+<script>
+	$(function(){
+		$('.bg-move, .fade').each(function() {
+			$(this).on('inview', function(event, isInView) {
+				if (isInView) {
+					$(this).addClass('visible');
+				}
+			});
+		});
+	});
+</script>
 </head>
 
 <body>
@@ -75,10 +103,17 @@
 				</div>
 				<div><a href="about.html"><input type="submit" value="READ MORE" class="button"></a></div>
 			</div>
+			<div class="bg-colors">
+				<div class="color1"></div>
+				<div class="color2"></div>
+				<div class="color3"></div>
+			</div>
 		</section>
 		
-		<div class="oursrevice-area">
+		<section class="oursrevice-area">
+			<div class="bg-orange-top bg-move visible"></div>
 			<h2>OUR SERVICE</h2>
+			
 			<div class="oursrevice-content">
 				<ul>
 					<li class="srevice-box1"><a href="saiyoshien.html"><img src="image/saiyoshien_icon1.png"></a></li>
@@ -86,11 +121,14 @@
 					<li class="srevice-box3"><a href="kaigaijinzai.html"><img src="image/kaigaijinzai_icon1.png"></a></li>
 				</ul>
 			</div>
+			<div class="bg-orange-btm bg-move visible"></div>
+			
 			<div class="oursrevice-image">
-				<img src="image/service1.jpg">
+				<img src="image/service1.jpg" class="chenge_image">
 			</div>
-		</div>
-		<div class="recruit-area">
+		</section>
+		
+		<section class="recruit-area">
 			<h2>求人情報</h2>
 			<div class="loop_wrap">
 				<img src="image/recruit.jpg"><img src="image/recruit.jpg">
@@ -100,8 +138,10 @@
 			   詳しくは<span>エンジニア求人情報</span>をご覧ください。</p>
 			<div><a href="recruit.html"><input type="submit" value="READ MORE" class="button"></a></div>
 			<div><input type="submit" value="エンジニア求人情報" class="button-2"></div>
-		</div>
-		<div class="partner-area">
+			<div class="bg-yellow bg-move visible"></div>
+		</section>
+		
+		<section class="partner-area">
 			<h2>パートナー募集</h2>
 			<div class="partner-image">
 				<img src="image/partner.jpg">
@@ -111,12 +151,13 @@
 			   受託開発が可能なビジネスパートナー様<br>
 			   ご協業企業様を広く募集しております。</p>
 			<div><a href="partner.html"><input type="submit" value="READ MORE" class="button"></a></div>
-		</div>
-		<div class="contact-area">
+		</section>
+		
+		<section class="contact-area">
 			<h2>お問い合わせ</h2>
 			<p>お気軽にお問い合わせください。</p>
 			<div><input type="submit" value="お問い合わせする＞" class="button-3"></div>
-		</div>
+		</section>
 	</main>
 	
 	<!--footer-->
