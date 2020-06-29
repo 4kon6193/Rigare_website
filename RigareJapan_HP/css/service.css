@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+header {
+	background-image: url("../bg-material/bg-material.svg");
+}
+
 .service-title {
-	background-color: azure;
 	padding: 100px 100px 50px 100px;
 }
 
@@ -14,12 +17,11 @@
 }
 
 .rigare-strong {
-	background-color: darkkhaki;
+	background-color: #EFEFEF;
 	padding: 100px 0;
 }
 
 .rigare-strong h2 {
-	background-color: darkkhaki;
 	padding: 0 100px;
 }
 
@@ -27,31 +29,20 @@
 	padding: 20px 100px;
 }
 
-.service-icon  {
-	text-align: center;
-	list-style: none;
-    box-sizing: border-box;
-	padding: 100px 0;
-	margin-bottom: 50px;
-	display: inline-block;
-	border-bottom: 1px solid #212121;
-}
-
 .img-boxs {
-	background-color: blueviolet;
-	border-bottom: 1px solid #212121;
 	overflow: hidden;
 	padding: 100px 0;
+	padding-left: 200px;
 }
 
 .img-box {
 	position: relative;
-	width: 20%;
+	width: 30%;
 	float: left;
 }
 
 .img-box img{
-	max-width: 55%;  /*画像のはみだしを防ぐ*/
+	max-width: 65%;  /*画像のはみだしを防ぐ*/
 }
 
 .img-box .active {

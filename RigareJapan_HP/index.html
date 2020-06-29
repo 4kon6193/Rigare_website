@@ -8,6 +8,7 @@
 <link href="css/scroll_fadeIn.css" rel="stylesheet" type="text/css">
 <link href="css/all.css" rel="stylesheet" type="text/css">
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
 <script>
 	$(function(){
 			$(window).scroll(function (){
@@ -53,8 +54,6 @@
 </head>
 
 <body>
-	<div id="stalker"></div>
-	
 	<div class="wrapper">
 	<!--header-->
 	<header>
@@ -110,8 +109,8 @@
 			</div>
 		</section>
 		
+		<div class="bg-orange-top bg-move visible"></div>
 		<section class="oursrevice-area">
-			<div class="bg-orange-top bg-move visible"></div>
 			<h2>OUR SERVICE</h2>
 			
 			<div class="oursrevice-content">
@@ -120,8 +119,8 @@
 					<li class="srevice-box2"><a href="itseisaku.html"><img src="image/itseisaku_icon1.png"></a></li>
 					<li class="srevice-box3"><a href="kaigaijinzai.html"><img src="image/kaigaijinzai_icon1.png"></a></li>
 				</ul>
+				<div class="bg-orange-btm bg-move visible"></div>
 			</div>
-			<div class="bg-orange-btm bg-move visible"></div>
 			
 			<div class="oursrevice-image">
 				<img src="image/service1.jpg" class="chenge_image">
@@ -137,10 +136,12 @@
 			   エネルギッシュなITエンジニアを募集しております。<br>
 			   詳しくは<span>エンジニア求人情報</span>をご覧ください。</p>
 			<div><a href="recruit.html"><input type="submit" value="READ MORE" class="button"></a></div>
-			<div><input type="submit" value="エンジニア求人情報" class="button-2"></div>
-			<div class="bg-yellow bg-move visible"></div>
+			<div><input type="submit" value="エンジニア求人情報" class="button-2">
+				<div class="bg-yellow bg-move visible"></div>
+			</div>
 		</section>
 		
+		<div class="bg-skyblue-top bg-move visible"></div>
 		<section class="partner-area">
 			<h2>パートナー募集</h2>
 			<div class="partner-image">
@@ -151,12 +152,13 @@
 			   受託開発が可能なビジネスパートナー様<br>
 			   ご協業企業様を広く募集しております。</p>
 			<div><a href="partner.html"><input type="submit" value="READ MORE" class="button"></a></div>
+			<div class="bg-skyblue-btm bg-move visible"></div>
 		</section>
 		
 		<section class="contact-area">
 			<h2>お問い合わせ</h2>
 			<p>お気軽にお問い合わせください。</p>
-			<div><input type="submit" value="お問い合わせする＞" class="button-3"></div>
+			<div><a href="contact.html"><input type="submit" value="お問い合わせする＞" class="button-3"></a></div>
 		</section>
 	</main>
 	
@@ -198,6 +200,16 @@
 	</footer>
 
 	</div><!--wrapper-->
+	
+	<script>
+	$(function(){
+		var fadeIn= {
+	        delay: 500, //アニメーションの発生タイミング
+	        distance: '200px', //要素の移動距離
+	        origin: 'right' //要素が移動してくる方向
+		};
+		ScrollReveal().reveal('.vertical', fadeIn);
+	</script>
 	
 </body>
 </html>

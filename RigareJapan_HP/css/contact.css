@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+header {
+	background-image: url("../bg-material/bg-material.svg");
+}
+
 .contact-information {
-	background-color: azure;
 	padding: 100px 100px 50px 100px;
 }
 

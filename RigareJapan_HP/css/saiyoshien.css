@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+header {
+	background-image: url("../bg-material/bg-material.svg");
+}
+
 .saiyo-title {
-	background-color: azure;
 	padding: 100px 100px 50px 100px;
 }
 
@@ -14,8 +17,12 @@
 }
 
 .saiyo-box1 {
-	background-color: darkcyan;
+	background-color: #EFEFEF;
 	padding: 100px 0;
+}
+
+.saiyo-box1 h2 {
+	color: #93BB00;
 }
 
 .saiyo-box1 h2,p {
@@ -37,8 +44,11 @@
 }
 
 .saiyo-box2 {
-	background-color: darkgoldenrod;
 	padding: 100px 0;
+}
+
+.saiyo-box2 h2 {
+	color: #93BB00;
 }
 
 .saiyo-box2 h2,p {

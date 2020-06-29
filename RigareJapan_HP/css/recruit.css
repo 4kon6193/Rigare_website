@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+header {
+	background-image: url("../bg-material/bg-material.svg");
+}
+
 .recruit-title {
-	background-color: azure;
 	padding: 100px 100px 50px 100px;
 }
 
@@ -10,7 +13,7 @@
 }
 
 .recruit-box1 {
-	background-color: darkcyan;
+	background-color: #EFEFEF;
 	padding: 100px 100px;
 }
 
@@ -29,7 +32,6 @@
 }
 
 .recruit-box2 {
-	background-color: darkgoldenrod;
 	padding: 100px 100px;
 }
 
@@ -48,7 +50,7 @@
 }
 
 .recruit-box3 {
-	background-color: cadetblue;
+	background-color: #EFEFEF;
 	padding: 100px 100px;
 }
 
@@ -67,7 +69,6 @@
 }
 
 .recruit-box4 {
-	background-color: darkgoldenrod;
 	padding: 100px 100px;
 	overflow: hidden;
 }
