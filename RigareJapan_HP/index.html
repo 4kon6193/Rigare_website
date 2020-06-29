@@ -1,12 +1,14 @@
 <!doctype html>
-<html>
-<head>
+<html><head>
 <meta charset="UTF-8">
 <title>株式会社リガーレジャパン</title>
 <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 <link href="css/index.css" rel="stylesheet" type="text/css">
+<link href="css/loading.css" rel="stylesheet" type="text/css">
+<link href="css/mousestalker.css" rel="stylesheet" type="text/css">
 <link href="css/scroll_fadeIn.css" rel="stylesheet" type="text/css">
 <link href="css/all.css" rel="stylesheet" type="text/css">
+<script src="js/mousestalker.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script>
@@ -51,9 +53,25 @@
 		});
 	});
 </script>
+	
+<script>
+	$(function() {
+		$(window).on('load');
+		$('.loader-slide').addClass('open');
+		setTimeout(function(){
+			$('#loader').css('display','none');
+		},2000);
+	});
+</script>
 </head>
 
 <body>
+	<div id="loader">
+		<div class="loader-slide">
+			<img src="image/rigarelogo.png"/>
+		</div>
+	</div>
+	
 	<div class="wrapper">
 	<!--header-->
 	<header>
@@ -200,16 +218,7 @@
 	</footer>
 
 	</div><!--wrapper-->
-	
-	<script>
-	$(function(){
-		var fadeIn= {
-	        delay: 500, //アニメーションの発生タイミング
-	        distance: '200px', //要素の移動距離
-	        origin: 'right' //要素が移動してくる方向
-		};
-		ScrollReveal().reveal('.vertical', fadeIn);
-	</script>
+	<div class="mouse"></div>
 	
 </body>
 </html>

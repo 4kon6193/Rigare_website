@@ -4,6 +4,13 @@ header {
 	background-image: url("../bg-material/bg-material.svg");
 }
 
+/*スマホ用css*/
+@media(max-width:320px) {
+	.top_image {
+		
+	}
+}
+
 .top_image {
 	padding: 100px 0 100px 150px;
 }

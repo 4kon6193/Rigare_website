@@ -1,52 +1,51 @@
 // JavaScript Document
-var
-cursor = $(".cursor"),
-follower = $(".follower"),
-cWidth = 8, //カーソルの大きさ
-fWidth = 40, //フォロワーの大きさ
-delay = 10, //数字を大きくするとフォロワーがより遅れて来る
-mouseX = 0, //マウスのX座標
-mouseY = 0, //マウスのY座標
-posX = 0, //フォロワーのX座標
-posY = 0; //フォロワーのX座標
-
-//カーソルの遅延アニメーション
-//ほんの少ーーーしだけ遅延させる 0.001秒
-TweenMax.to({}, .001, {
-  repeat: -1,
-  onRepeat: function() {
-    posX += (mouseX - posX) / delay;
-    posY += (mouseY - posY) / delay;
-    
-    TweenMax.set(follower, {
-        css: {    
-          left: posX - (fWidth / 2),
-          top: posY - (fWidth / 2)
-        }
-    });
-    
-    TweenMax.set(cursor, {
-        css: {    
-          left: mouseX - (cWidth / 2),
-          top: mouseY - (cWidth / 2)
-        }
-    });
+const mouse = $(".mouse");
+ 
+function Cursor(element, options) {
+  function stringNode(node) {
+    var tmpNode = document.createElement("div");
+    tmpNode.appendChild(node.cloneNode(true));
+    return tmpNode.innerHTML;
   }
-});
-
-//マウス座標を取得
-$(document).on("mousemove", function(e) {
-    mouseX = e.pageX;
-    mouseY = e.pageY;
-});
-
-$("a").on({
-  "mouseenter": function() {
-    cursor.addClass("is-active");
-    follower.addClass("is-active");
-  },
-  "mouseleave": function() {
-    cursor.removeClass("is-active");
-    follower.removeClass("is-active");
+ 
+  var intSize = parseInt(options.size);
+  function setSize(size, scale) {
+    if (scale) {
+      scale = `${scale}`;
+      element.css({
+        "transform" : `scale(${options.hoverSize})`,
+        "opacity" : ".6"
+      });
+    } else {
+      size = parseInt(size);
+      element.css({
+        width: size + "px",
+        height: size + "px",
+        transform: "none",
+        opacity : "0.7"
+      });
+    }
   }
+ 
+  setSize(options.size);
+ 
+  document.onmousemove = e => {
+    element.css({
+      left: e.clientX - parseInt(options.size) / 2 + "px",
+      top: e.clientY - parseInt(options.size) / 2 + "px"
+    });
+    elementType = stringNode(e.target)
+      .replace(/\</g, "")
+      .split(">")[0]
+      .split(" ")[0];
+    //console.log(elementType)
+    if (["a", "button", "input"].includes(elementType))
+      setSize(options.size, options.hoverSize);
+    else setSize(options.size);
+  };
+}
+ 
+Cursor(mouse, {
+  size: "30px", // Width and Height
+  hoverSize: 0.5 // Scale size
 });
