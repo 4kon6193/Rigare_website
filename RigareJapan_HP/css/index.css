@@ -5,9 +5,9 @@ header {
 }
 
 /*スマホ用css*/
-@media(max-width:320px) {
-	.top_image {
-		
+@media screen and (max-width:479px) {
+	.top_image img {
+        max-width: 500px;
 	}
 }
 
@@ -89,6 +89,14 @@ header {
 	float: right;
 }
 
+/*スマホ用css*/
+@media screen and (max-width:479px) {
+	.about-area {
+        width: 100%;
+        float: none;
+	}
+}
+
 .about-area {
 	padding: 100px 0;
 	width: 60%;
@@ -100,10 +108,12 @@ header {
 	writing-mode: vertical-rl;
 	margin-left: 100px;
 	font-size: 30px;
-    }
+}
+
 .about-text {
 	padding: 30px 200px;
 }
+
 .about-text h3 {
 	padding-bottom: 10px;
 	font-size: 20px;
@@ -119,7 +129,6 @@ header {
 	font-size: 30px;
 	padding-bottom: 20px;
 }
-
 
 .oursrevice-content {
 	float: left;
