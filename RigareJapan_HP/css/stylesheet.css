@@ -13,9 +13,20 @@ h3 {
 	font-size: 20px;
 }
 
-p {
-	font-size: 16px;
-	line-height: 1.8;
+/*スマホ用css*/
+@media screen and (max-width:479px) {
+    p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+}
+
+/*PC用css*/
+@media screen and (min-width:480px) {
+    p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
 }
 
 /*スマホ用css*/
@@ -122,25 +133,46 @@ header {
 	background    : #212121;     /* 背景色     */
 }
 
-.contact-area {
-	text-align: center;
-	padding: 80px 0 20px 0;
-	margin: 0 230px 0 230px;
-	background-color: #212121;
-	color: #FFFFFF;
-	transition    : .3s;         /* なめらか変化 */
-}
-.contact-area:hover {
-	background-color: #FFF4DB;
-	color: #212121;
-	transition    : .3s;         /* なめらか変化 */
-	
+/*スマホ用css*/
+@media screen and (max-width:479px) {
+    .contact-area {
+        text-align: center;
+        padding: 20px 0 20px 0;
+        background-color: #FFF4DB;
+        color: #212121;
+        transition    : .3s;         /* なめらか変化 */
+    }
 }
 
-.contact-area h2 {
-	font-size: 30px;
-	padding-bottom: 10px;
+/*PC用css*/
+@media screen and (min-width:480px) {
+    .contact-area {
+        text-align: center;
+        padding: 80px 0 20px 0;
+        margin: 0 230px 0 230px;
+        background-color: #212121;
+        color: #FFFFFF;
+        transition    : .3s;         /* なめらか変化 */
+    }
 }
+
+/*PC用css*/
+@media screen and (min-width:480px) {
+    .contact-area:hover {
+        background-color: #FFF4DB;
+        color: #212121;
+        transition    : .3s;         /* なめらか変化 */
+    }
+}
+
+/*PC用css*/
+@media screen and (min-width:480px) {
+    .contact-area h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+}
+
 
 footer{
     width: 100%;
