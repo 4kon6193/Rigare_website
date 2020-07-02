@@ -1,19 +1,26 @@
 @charset "UTF-8";
 /* CSS Document */
-
-* {
-	margin: 0px;
-	padding: 0px;
-}
-
-h2 {
-	font-size: 30px;
-}
-h3 {
-	font-size: 20px;
-}
-
+/*---------------------------------------------------*/
 /*スマホ用css*/
+@media screen and (max-width:479px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    h3 {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width:479px) {
     p {
         font-size: 14px;
@@ -21,7 +28,33 @@ h3 {
     }
 }
 
+@media screen and (max-width:479px) {
+	body {
+		height: 100%;
+		width: 100%;
+	}
+}
+/*---------------------------------------------------*/
 /*PC用css*/
+@media screen and (min-width:480px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    h3 {
+        font-size: 20px;
+    }
+}
+
 @media screen and (min-width:480px) {
     p {
         font-size: 16px;
@@ -29,21 +62,16 @@ h3 {
     }
 }
 
-/*スマホ用css*/
-@media screen and (max-width:479px) {
-	body {
-		height: 100%;
-		width: 100%;
-	}
-}
-
-body {
-	height: 100%;
-	width: 100%;
+@media screen and (min-width:480px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .wrapper{
     height: 100%;
+    width: auto;
     min-height: 100vh;
     position: relative;/*←相対位置*/
     padding-bottom: 325px;/*←footerの高さ*/

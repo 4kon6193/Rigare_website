@@ -3,205 +3,630 @@
 header {
 	background-image: url("../bg-material/bg-material.svg");
 }
-
-.kaigaijinzai-title {
-	padding: 100px 100px 50px 100px;
+/*---------------------------------------------------*/
+/*スマホ用cssタイトル*/
+@media screen and (max-width:479px) {
+    .kaigaijinzai-title {
+        padding: 150px 0 0 20px;
+    }
 }
 
-.kaigaijinzai-title h4 {
-	padding: 0 0 30px 10px;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-title h2 {
+        font-size: 30px;
+    }
 }
 
-.kaigaijinzai-title p {
-	padding: 0 0 30px 20px;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-title h4 {
+        padding-bottom: 20px;
+    }
 }
 
-.kaigaizai-box1 {
-	background-color: #EFEFEF;
-	padding: 100px 100px;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-title p {
+        font-size: 20px;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssタイトル*/
+@media screen and (min-width:480px) {
+    .kaigaijinzai-title {
+        padding: 100px 100px 50px 100px;
+    }
 }
 
-.kaigaizai-box1 h2 {
-	color: #C81249;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-title h4 {
+        padding: 0 0 30px 10px;
+    }
 }
 
-.kaigaizai-box1 p {
-	padding: 50px 0 30px 20px;
-	float: left;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-title p {
+        padding: 0 0 30px 20px;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX1*/
+@media screen and (max-width:479px) {
+    .kaigaizai-box1 {
+        background-color: #EFEFEF;
+        padding: 50px 20px;
+    }
 }
 
-.kaigaijinzai-image1 {
-	padding: 20px 0 0 0;
+@media screen and (max-width:479px) {
+    .kaigaizai-box1 h2 {
+        color: #C81249;
+        font-size: 26px;
+    }
 }
 
-.kaigaijinzai-image1 img {
-	max-width: 50%;
-	box-sizing: border-box;
+@media screen and (max-width:479px) {
+    .kaigaizai-box1 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
 }
 
-.kaigaizai-box2 {
-	padding: 100px 100px 100px 100px;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image1 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
 }
 
-.kaigaizai-box2 h2 {
-	color: #C81249;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image1 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX1*/
+@media screen and (min-width:480px) {
+    .kaigaizai-box1 {
+        background-color: #EFEFEF;
+        padding: 100px 100px;
+    }
 }
 
-.kaigaizai-box2 p {
-	padding: 50px 135px 30px 20px;
-	float: left;
+@media screen and (min-width:480px) {
+    .kaigaizai-box1 h2 {
+        color: #C81249;
+    }
 }
 
-.kaigaijinzai-image2 {
-	padding: 50px 0 0 50px;
+@media screen and (min-width:480px) {
+    .kaigaizai-box1 p {
+        padding: 50px 0 30px 20px;
+        float: left;
+    }
 }
 
-.kaigaijinzai-image2 img {
-	max-width: 50%;
-	box-sizing: border-box;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image1 {
+        padding: 20px 0 0 0;
+    }
 }
 
-.kaigaizai-box3 {
-	background-color: #EFEFEF;
-	padding: 100px 100px;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image1 img {
+        max-width: 50%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX2*/
+@media screen and (max-width:479px) {
+    .kaigaizai-box2 {
+        padding: 50px 20px;
+    }
 }
 
-.kaigaizai-box3 h2 {
-	color: #C81249;
+@media screen and (max-width:479px) {
+    .kaigaizai-box2 h2 {
+        color: #C81249;
+        font-size: 26px;
+    }
 }
 
-.kaigaizai-box3 p {
-	padding: 20px 0 30px 20px;
+@media screen and (max-width:479px) {
+    .kaigaizai-box2 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
 }
 
-.kaigaijinzai-image3 {
-	text-align: center;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image2 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
 }
 
-.kaigaijinzai-image3 img {
-	max-width: 70%;
-	box-sizing: border-box;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image2 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX2*/
+@media screen and (min-width:480px) {
+    .kaigaizai-box2 {
+        padding: 100px 100px 100px 100px;
+    }
 }
 
-.kaigaizai-box4 {
-	padding: 100px 100px;
+@media screen and (min-width:480px) {
+    .kaigaizai-box2 h2 {
+        color: #C81249;
+    }
 }
 
-.kaigaizai-box4 h2 {
-	color: #C81249;
+@media screen and (min-width:480px) {
+    .kaigaizai-box2 p {
+        padding: 50px 135px 30px 20px;
+        float: left;
+    }
 }
 
-.kaigaizai-box4 p {
-	padding: 50px 0 30px 20px;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image2 {
+        padding: 50px 0 0 50px;
+    }
 }
 
-.kaigaijinzai-image4 {
-	text-align: center;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image2 img {
+        max-width: 50%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX3*/
+@media screen and (max-width:479px) {
+    .kaigaizai-box3 {
+        background-color: #EFEFEF;
+        padding: 50px 20px;
+    }
 }
 
-.kaigaijinzai-image4 img {
-	max-width: 70%;
-	box-sizing: border-box;
+@media screen and (max-width:479px) {
+    .kaigaizai-box3 h2 {
+        color: #C81249;
+        font-size :26px;
+    }
 }
 
-.kaigaizai-box5 {
-	background-color: #EFEFEF;
-	padding: 100px 100px;
+@media screen and (max-width:479px) {
+    .kaigaizai-box3 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
 }
 
-.kaigaizai-box5 h2 {
-	color: #C81249;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image3 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
 }
 
-.kaigaizai-box5 p {
-	padding: 50px 0 30px 20px;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image3 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX3*/
+@media screen and (min-width:480px) {
+    .kaigaizai-box3 {
+        background-color: #EFEFEF;
+        padding: 100px 100px;
+    }
 }
 
-.kaigaijinzai-image5 {
-	text-align: center;
+@media screen and (min-width:480px) {
+    .kaigaizai-box3 h2 {
+        color: #C81249;
+    }
 }
 
-.kaigaijinzai-image5 img {
-	max-width: 70%;
-	box-sizing: border-box;
+@media screen and (min-width:480px) {
+    .kaigaizai-box3 p {
+        padding: 20px 0 30px 20px;
+    }
 }
 
-.kaigaizai-box6 {
-	padding: 100px 100px;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image3 {
+        text-align: center;
+    }
 }
 
-.kaigaizai-box6 h2 {
-	color: #C81249;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image3 img {
+        max-width: 70%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX4*/
+@media screen and (max-width:479px) {
+    .kaigaizai-box4 {
+        padding: 50px 20px;
+    }
 }
 
-.kaigaizai-box6 p {
-	padding: 50px 0 30px 20px;
-	float: right;
+@media screen and (max-width:479px) {
+    .kaigaizai-box4 h2 {
+        color: #C81249;
+        font-size :26px;
+    }
 }
 
-.kaigaijinzai-image6 {
-	padding: 50px 0 0 0;
+@media screen and (max-width:479px) {
+    .kaigaizai-box4 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
 }
 
-.kaigaijinzai-image6 img {
-	max-width: 40%;
-	box-sizing: border-box;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image4 {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
 }
 
-.kaigaizai-box7 {
-	background-color: #EFEFEF;
-	padding: 100px 100px;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image4 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX4*/
+@media screen and (min-width:480px) {
+    .kaigaizai-box4 {
+        padding: 100px 100px;
+    }
 }
 
-.kaigaizai-box7 h2 {
-	color: #C81249;
+@media screen and (min-width:480px) {
+    .kaigaizai-box4 h2 {
+        color: #C81249;
+    }
 }
 
-.kaigaizai-box7 p {
-	padding: 50px 0 30px 20px;
+@media screen and (min-width:480px) {
+    .kaigaizai-box4 p {
+        padding: 50px 0 30px 20px;
+    }
 }
 
-.kaigaijinzai-image7 {
-	text-align: center;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image4 {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
 }
 
-.kaigaijinzai-image7 img {
-	max-width: 60%;
-	box-sizing: border-box;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image4 img {
+        max-width: 70%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX5*/
+@media screen and (max-width:479px) {
+    .kaigaizai-box5 {
+        background-color: #EFEFEF;
+        padding: 50px 20px;
+    }
 }
 
-.text-boxs {
-	padding: 100px 100px;
-	margin: 0 100px;
-	overflow: hidden;
+@media screen and (max-width:479px) {
+    .kaigaizai-box5 h2 {
+        color: #C81249;
+        font-size :26px;
+    }
 }
 
-.text-box1 {
-	float: left;
-	padding: 0 200px 0 0;
+@media screen and (max-width:479px) {
+    .kaigaizai-box5 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
 }
 
-.text-box1 h3 {
-	color: #C81249;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image5 {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
 }
 
-.text-box2 {
-	padding: 0 0 50px 0;
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image5 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX5*/
+@media screen and (min-width:480px) {
+    .kaigaizai-box5 {
+        background-color: #EFEFEF;
+        padding: 100px 100px;
+    }
 }
 
-.text-box2 h3 {
-	color: #C81249;
+@media screen and (min-width:480px) {
+    .kaigaizai-box5 h2 {
+        color: #C81249;
+    }
 }
 
-.text-box3 {
-	float: left;
-	padding: 0 55px 0 0;
+@media screen and (min-width:480px) {
+    .kaigaizai-box5 p {
+        padding: 50px 0 30px 20px;
+    }
 }
 
-.text-box3 h3 {
-	color: #C81249;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image5 {
+        text-align: center;
+    }
 }
 
-.text-box4 h3 {
-	color: #C81249;
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image5 img {
+        max-width: 70%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX6*/
+@media screen and (max-width:479px) {
+    .kaigaizai-box6 {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .kaigaizai-box6 h2 {
+        color: #C81249;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .kaigaizai-box6 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image6 {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image6 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX6*/
+@media screen and (min-width:480px) {
+    .kaigaizai-box6 {
+        padding: 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .kaigaizai-box6 h2 {
+        color: #C81249;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .kaigaizai-box6 p {
+        padding: 50px 0 30px 20px;
+        float: right;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image6 {
+        padding: 50px 0 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image6 img {
+        max-width: 40%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssBOX7*/
+@media screen and (max-width:479px) {
+    .kaigaizai-box7 {
+        background-color: #EFEFEF;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .kaigaizai-box7 h2 {
+        color: #C81249;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .kaigaizai-box7 p {
+        padding-top: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image7 {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .kaigaijinzai-image7 img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssBOX7*/
+@media screen and (min-width:480px) {
+    .kaigaizai-box7 {
+        background-color: #EFEFEF;
+        padding: 100px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .kaigaizai-box7 h2 {
+        color: #C81249;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .kaigaizai-box7 p {
+        padding: 50px 0 30px 20px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image7 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .kaigaijinzai-image7 img {
+        max-width: 60%;
+        box-sizing: border-box;
+    }
+}
+/*---------------------------------------------------*/
+/*スマホ用cssTextBOX*/
+@media screen and (max-width:479px) {
+    .text-boxs {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .text-box1 h3 {
+        color: #C81249;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .text-box2 {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .text-box2 h3 {
+        color: #C81249;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .text-box3 {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .text-box3 h3 {
+        color: #C81249;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .text-box4 {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .text-box4 h3 {
+        color: #C81249;
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssTextBOX*/
+@media screen and (min-width:480px) {
+    .text-boxs {
+        padding: 100px 100px;
+        margin: 0 100px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .text-box1 {
+        float: left;
+        padding: 0 200px 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .text-box1 h3 {
+        color: #C81249;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .text-box2 {
+        padding: 0 0 50px 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .text-box2 h3 {
+        color: #C81249;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .text-box3 {
+        float: left;
+        padding: 0 55px 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .text-box3 h3 {
+        color: #C81249;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .text-box4 h3 {
+        color: #C81249;
+    }
 }
