@@ -171,13 +171,6 @@
     }
 }
 
-@media screen and (max-width:479px) {
-    .contact-area h2 {
-        font-size: 30px;
-        padding-bottom: 10px;
-    }
-}
-
 /*---------------------------------------------------*/
 /*PC用cssお問い合わせ*/
 @media screen and (min-width:480px) {
