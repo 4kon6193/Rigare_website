@@ -26,13 +26,20 @@ header {
 /*PC用cssタイトル*/
 @media screen and (min-width:480px) {
     .recruit-title {
-        padding: 100px 100px 50px 100px;
+        padding: 200px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .recruit-title h2 {
+        font-size: 45px;
     }
 }
 
 @media screen and (min-width:480px) {
     .recruit-title-title p {
         padding: 0 0 30px 20px;
+        font-size: 22px;
     }
 }
 /*---------------------------------------------------*/

@@ -27,16 +27,22 @@ header {
 /*PC用cssタイトル*/
 @media screen and (min-width:480px) {
     .partner-title {
-        padding: 100px 100px 50px 100px;
+        padding: 200px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .partner-title h2 {
+        font-size: 45px;
     }
 }
 
 @media screen and (min-width:480px) {
     .partner-title p {
         padding: 0 0 30px 20px;
+        font-size: 22px;
     }
 }
-
 /*---------------------------------------------------*/
 /*スマホ用cssBOX*/
 @media screen and (max-width:479px) {

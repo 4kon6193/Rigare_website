@@ -7,7 +7,7 @@ header {
 /*スマホ用cssタイトル*/
 @media screen and (max-width:479px) {
 	.top_image {
-        padding: 150px 0 0 20px;
+        padding: 200px 0 0 20px;
         width: 100%;
 	}
 }
@@ -22,7 +22,7 @@ header {
 /*PC用cssタイトル*/
 @media screen and (min-width:480px) {
     .top_image {
-        padding: 100px 0 100px 150px;
+        padding: 200px 0 100px 150px;
     }
 }
 @media screen and (min-width:480px) {
