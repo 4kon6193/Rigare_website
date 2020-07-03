@@ -172,12 +172,6 @@
 }
 
 @media screen and (max-width:479px) {
-    .contact-area:hover {
-        display: none;
-    }
-}
-
-@media screen and (max-width:479px) {
     .contact-area h2 {
         font-size: 30px;
         padding-bottom: 10px;
