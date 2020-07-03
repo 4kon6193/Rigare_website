@@ -8,6 +8,7 @@ header {
 @media screen and (max-width:479px) {
 	.top_image {
         padding: 150px 0 0 20px;
+        width: 100%;
 	}
 }
 
@@ -356,12 +357,13 @@ header {
 
 @media screen and (max-width:479px) {
     .loop_wrap {
-        width: 100%;
+        display: none;
     }
 }
 
 @media screen and (max-width:479px) {
     .loop_wrap img {
+        display: none;
         max-width: 100%;
         box-sizing: border-box;
     }
@@ -369,6 +371,7 @@ header {
 
 @media screen and (max-width:479px) {
     .loop_wrap img:first-child {
+        display: none;
         animation: loop 50s -25s linear infinite;
     }
 }
@@ -381,6 +384,7 @@ header {
 
 @media screen and (max-width:479px) {
     .bg-yellow {
+        display: none;
         width: 100%;
         height: 50px;
         background-color: yellow;
