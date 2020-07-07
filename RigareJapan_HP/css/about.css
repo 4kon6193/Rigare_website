@@ -330,6 +330,7 @@ header {
         line-height   : 1em;         /* 1行の高さ  */
         transition    : .3s;         /* なめらか変化 */
         border        : 2px solid #1BFF1B;    /* 枠の指定 */
+        -webkit-appearance: none;
     }
 }
 
@@ -339,6 +340,7 @@ header {
         color         : #ffffff;     /* 文字色     */
         background    : #289E15;     /* 背景色     */
         border        : 2px solid #289E15;    /* 枠の指定 */
+        -webkit-appearance: none;
     }
 }
 

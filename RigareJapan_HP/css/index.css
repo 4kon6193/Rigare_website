@@ -47,6 +47,7 @@ header {
         line-height   : 1em;         /* 1行の高さ  */
         transition    : .3s;         /* なめらか変化 */
         border        : 2px solid #212121;    /* 枠の指定 */
+        -webkit-appearance: none;
     }
 }
 
@@ -55,6 +56,7 @@ header {
         box-shadow    : none;        /* カーソル時の影消去 */
         color         : #ffffff;     /* 文字色     */
         background    : #212121;     /* 背景色     */
+        -webkit-appearance: none;
     }
 }
 /*---------------------------------------------------*/
@@ -482,6 +484,7 @@ header {
         line-height   : 2em;         /* 1行の高さ  */
         transition    : .3s;         /* なめらか変化 */
         border        : 2px solid #212121;    /* 枠の指定 */
+        -webkit-appearance: none;
     }
 }
 
@@ -490,6 +493,7 @@ header {
         box-shadow    : none;        /* カーソル時の影消去 */
         color         : #ffffff;     /* 文字色     */
         background    : #212121;     /* 背景色     */
+        -webkit-appearance: none;
     }
 }
 /*---------------------------------------------------*/
