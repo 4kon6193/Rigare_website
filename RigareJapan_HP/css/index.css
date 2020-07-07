@@ -508,6 +508,7 @@ header {
         line-height   : 2em;         /* 1行の高さ  */
         transition    : .3s;         /* なめらか変化 */
         border        : 2px solid #212121;    /* 枠の指定 */
+        width: 20%;
     }
 }
 
@@ -560,7 +561,7 @@ header {
 /*PC用cssパートナーエリア*/
 @media screen and (min-width:480px) {
     .partner-area {
-        padding: 150px 50px 150px 100px;
+        padding: 150px 50px 200px 100px;
         overflow: hidden;
     }
 }
