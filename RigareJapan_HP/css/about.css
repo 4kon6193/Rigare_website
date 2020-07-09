@@ -1,8 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-header {
-	background-image: url("../bg-material/bg-material.svg");
-}
 /*---------------------------------------------------*/
 /*スマホ用cssタイトル*/
 @media screen and (max-width:479px) {
@@ -49,7 +46,7 @@ header {
 /*スマホ用cssメッセージ*/
 @media screen and (max-width:479px) {
     .message-block {
-        padding: 50px 20px;
+        padding: 50px 20px 0 20px;
         float: none;
     }
 }
@@ -97,7 +94,7 @@ header {
     .bg-grey {
         width: 35%;
         margin-top: 400px;
-        height: 340px;
+        height: 300px;
         background-color: #EBEBEB;
         position: absolute;
         left: 0;

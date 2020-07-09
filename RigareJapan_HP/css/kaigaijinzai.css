@@ -1,8 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-header {
-	background-image: url("../bg-material/bg-material.svg");
-}
 /*---------------------------------------------------*/
 /*スマホ用cssタイトル*/
 @media screen and (max-width:479px) {
