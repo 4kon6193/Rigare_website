@@ -60,13 +60,13 @@
 @media screen and (max-width:479px) {
     .ceo-image {
         text-align: center;
-        margin: 70px 0 0 0;
+        margin: 55px 0 55px 0;
     }
 }
 
 @media screen and (max-width:479px) {
     .ceo-image img {       
-        max-width: 90%;
+        max-width: 80%;
         height: auto;
     }
 }
@@ -81,6 +81,7 @@
 
 @media screen and (max-width:479px) {
     .bg-green-top {
+        margin-top: 12px;
         width: 50%;
         height: 500px;
         background-color: #93BB00;
@@ -171,10 +172,6 @@
 }
 
 /*---------------------------------------------------*/
-.company-block {
-	background-image: url("../bg-material/bg-material.svg");
-}
-
 /*スマホ用css会社概要*/
 @media screen and (max-width:479px) {
     .company-block {
@@ -229,13 +226,13 @@
 /*PC用css会社概要*/
 @media screen and (min-width:480px) {
     .company-block {
-        padding: 100px 0 0 0;
+        padding: 0 0 0 0;
     }
 }
 
 @media screen and (min-width:480px) {
     .company-block h2 {
-        padding: 0 100px;
+        padding: 50px 100px 0 100px;
     }
 }
 
@@ -289,7 +286,7 @@
 /*スマホ用cssアクセス*/
 @media screen and (max-width:479px) {
     .access-block {
-        padding: 50px 20px;
+        padding: 50px 20px 50px 20px;
     }
 }
 
@@ -346,7 +343,7 @@
 /*PC用css*/
 @media screen and (min-width:480px) {
     .access-block {
-        padding: 100px 0 0 0;
+        padding: 50px 0 100px 0;
     }
 }
 
