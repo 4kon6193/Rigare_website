@@ -588,7 +588,7 @@ header {
 
 @media screen and (min-width:480px) {
     .bg-skyblue-top {
-        width: 45%;
+        width: 35%;
         height: 430px;
         background-color: skyblue;
         position: absolute;
@@ -599,8 +599,8 @@ header {
 
 @media screen and (min-width:480px) {
     .bg-skyblue-btm {
-        width: 40%;
-        height: 265px;
+        width: 55%;
+        height: 150px;
         background-color: skyblue;
         position: absolute;
         left: 0;
