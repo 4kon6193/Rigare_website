@@ -4,13 +4,19 @@
 /*スマホ用cssタイトル*/
 @media screen and (max-width:479px) {
 	.top_image {
+        display: none
+	}
+}
+
+@media screen and (max-width:479px) {
+	.top_image2 {
         padding: 200px 0 0 20px;
         width: 100%;
 	}
 }
 
 @media screen and (max-width:479px) {
-    .top_image img {
+    .top_image2 img {
         max-width: 90%;  /*画像のはみだしを防ぐ*/
         height: auto;  /*画像の縦横比を維持 */
     }
@@ -19,13 +25,19 @@
 /*PC用cssタイトル*/
 @media screen and (min-width:480px) {
     .top_image {
-        padding: 200px 0 100px 150px;
+        padding: 250px 0 100px 150px;
     }
 }
 @media screen and (min-width:480px) {
     .top_image img {
-        max-width: 50%;  /*画像のはみだしを防ぐ*/
+        max-width: 80%;  /*画像のはみだしを防ぐ*/
         height: auto;  /*画像の縦横比を維持 */
+    }
+}
+
+@media screen and (min-width:480px) {
+    .top_image2 {
+        display: none;
     }
 }
 /*---------------------------------------------------*/
