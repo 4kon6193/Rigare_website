@@ -119,15 +119,9 @@
 }
 
 @media screen and (min-width:480px) {
-    .message-block h3 {
-        padding: 30px 100px 0 100px;
-    }
-}
-
-@media screen and (min-width:480px) {
     .ceo-image img {
-        margin: 30px 0px 30px 50px;
-        max-width: 80%;  /*画像のはみだしを防ぐ*/
+        margin: 120px 0 0 80px;
+        max-width: 65%;  /*画像のはみだしを防ぐ*/
         height: auto;  /*画像の縦横比を維持 */
     }
 }
@@ -152,7 +146,7 @@
 @media screen and (min-width:480px) {
     .bg-green-top {
         width: 35%;
-        height: 350px;
+        height: 300px;
         background-color: #93BB00;
         position: absolute;
         right: 0;
@@ -244,7 +238,7 @@
 
 @media screen and (min-width:480px) {
     .company-profile {
-        padding: 50px 0 0 300px;
+        padding: 70px 0 0 300px;
     }
 }
 
@@ -343,7 +337,7 @@
 /*PC用css*/
 @media screen and (min-width:480px) {
     .access-block {
-        padding: 50px 0 100px 0;
+        padding: 100px 0 100px 0;
     }
 }
 

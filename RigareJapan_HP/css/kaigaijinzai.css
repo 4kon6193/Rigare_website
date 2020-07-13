@@ -105,7 +105,7 @@
 
 @media screen and (min-width:480px) {
     .kaigaizai-box1 p {
-        padding: 50px 0 30px 20px;
+        padding: 50px 120px 30px 20px;
         float: left;
     }
 }
@@ -161,7 +161,7 @@
 /*PC用cssBOX2*/
 @media screen and (min-width:480px) {
     .kaigaizai-box2 {
-        padding: 100px 100px 100px 100px;
+        padding: 100px 100px 150px 100px;
     }
 }
 
@@ -173,14 +173,14 @@
 
 @media screen and (min-width:480px) {
     .kaigaizai-box2 p {
-        padding: 50px 135px 30px 20px;
+        padding: 50px 70px 30px 20px;
         float: left;
     }
 }
 
 @media screen and (min-width:480px) {
     .kaigaijinzai-image2 {
-        padding: 50px 0 0 50px;
+        padding: 50px 0 0 0;
     }
 }
 
@@ -255,7 +255,7 @@
 
 @media screen and (min-width:480px) {
     .kaigaijinzai-image3 img {
-        max-width: 70%;
+        max-width: 60%;
         box-sizing: border-box;
     }
 }
@@ -323,7 +323,7 @@
 
 @media screen and (min-width:480px) {
     .kaigaijinzai-image4 img {
-        max-width: 70%;
+        max-width: 60%;
         box-sizing: border-box;
     }
 }
@@ -392,7 +392,7 @@
 
 @media screen and (min-width:480px) {
     .kaigaijinzai-image5 img {
-        max-width: 70%;
+        max-width: 55%;
         box-sizing: border-box;
     }
 }
@@ -529,7 +529,7 @@
 
 @media screen and (min-width:480px) {
     .kaigaijinzai-image7 img {
-        max-width: 60%;
+        max-width: 50%;
         box-sizing: border-box;
     }
 }
@@ -586,7 +586,7 @@
 /*PC用cssTextBOX*/
 @media screen and (min-width:480px) {
     .text-boxs {
-        padding: 100px 100px;
+        padding: 100px 100px 200px 100px;
         margin: 0 100px;
         overflow: hidden;
     }
