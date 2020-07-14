@@ -136,6 +136,20 @@
         margin: 0 10px;
     }
 }
+
+@media screen and (max-width:479px) {
+    .jyutaku-image {
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .jyutaku-image img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
 /*---------------------------------------------------*/
 /*PC用css受託開発*/
 @media screen and (min-width:480px) {
@@ -153,6 +167,21 @@
 @media screen and (min-width:480px) {
     .contract-container p {
         padding: 20px 0 30px 20px;
+        width: 50%;
+        float: left;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .jyutaku-image {
+        padding: 20px 0 0 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .jyutaku-image img {
+        max-width: 45%;
+        box-sizing: border-box;
     }
 }
 /*---------------------------------------------------*/

@@ -685,7 +685,7 @@
 /*PC用cssパートナーエリア*/
 @media screen and (min-width:480px) {
     .partner-area {
-        padding: 150px 50px 200px 100px;
+        padding: 150px 50px 250px 100px;
         overflow: hidden;
     }
 }
