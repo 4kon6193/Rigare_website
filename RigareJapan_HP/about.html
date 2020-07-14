@@ -10,8 +10,10 @@
 <link href="css/menu02.css" rel="stylesheet" type="text/css">
 <link href="bg-material/bg-material2.css" rel="stylesheet" type="text/css">
 <link href="css/all.css" rel="all" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
 <!-- jQuery読み込みheader_menu -->
     <script>
@@ -28,6 +30,34 @@
             });
         })
     </script>
+<!-- jQuery読み込み矢印 -->
+<script>
+    jQuery(function() {
+  var appear = false;
+  var pagetop = $('#page_top');
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {  //100pxスクロールしたら
+      if (appear == false) {
+        appear = true;
+        pagetop.stop().animate({
+          'right': '0px' //右から0pxの位置に
+        }, 300); //0.3秒かけて現れる
+      }
+    } else {
+      if (appear) {
+        appear = false;
+        pagetop.stop().animate({
+          'right': '-50px' //右から-50pxの位置に
+        }, 300); //0.3秒かけて隠れる
+      }
+    }
+  });
+  pagetop.click(function () {
+    $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+    return false;
+  });
+});
+</script>
 </head>
 
 <body>
@@ -145,7 +175,7 @@
 				<p>リガーレジャパンは2016年の創業以来、<br>
 				人や会社を繋ぐ存在でありたいとの想いで突き進んできました。<br>
 				「人材」「IT」「外国人」の3つの柱において、<br>
-				様々な環境・業種の人材輩出やや未来を支えるIT技術者の育成、優秀な海外人材の雇用創出等<br>
+				様々な環境・業種の人材輩出や未来を支えるIT技術者の育成、優秀な海外人材の雇用創出等<br>
 				社会的な価値のあるサービスの提供を推進してまいりました。<br><br>
 				特に、将来の日本において優秀な「人材育成」が欠かせないと考え力を入れるとともに<br>
 				国籍の垣根を超えた多様な働き方を求められるこの時代に、<br>
