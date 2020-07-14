@@ -164,6 +164,33 @@
     }
 }
 /*---------------------------------------------------*/
+/*スマホ用cssお問い合わせ*/
+@media screen and (max-width:479px) {
+    .contact-area {
+        text-align: center;
+        padding: 80px 0 20px 0;
+        background-color: #FFF4DB;
+        color: #212121;
+        transition    : .3s;         /* なめらか変化 */
+    }
+}
+
+@media screen and (max-width:479px) {
+    .contact-area:hover {
+        background-color: #FFF4DB;
+        color: #212121;
+        transition    : .3s;         /* なめらか変化 */
+    }
+}
+
+@media screen and (max-width:479px) {
+    .contact-area h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+}
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
 /*PC用cssお問い合わせ*/
 @media screen and (min-width:480px) {
     .contact-area {
