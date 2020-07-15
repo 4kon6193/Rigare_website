@@ -94,6 +94,32 @@
     }
 }
 /*---------------------------------------------------*/
+/*スマホ用cssロゴ*/
+@media screen and (max-width:479px) {
+    .header-logo {
+        padding: 30px 20px 0 20px;
+    }
+    
+    .header-logo img {
+        max-width: 60%;  /*画像のはみだしを防ぐ*/
+        height: auto;  /*画像の縦横比を維持 */
+    }
+}
+/*---------------------------------------------------*/
+/*PC用cssヘッダーロゴ*/
+@media screen and (min-width:480px) {
+    .header-logo {
+        padding: 30px 20px;
+        float: left;
+        width: 20%;
+    }
+    
+    .header-logo img {
+        max-width: 90%;  /*画像のはみだしを防ぐ*/
+        height: auto;  /*画像の縦横比を維持 */
+    }
+}
+/*---------------------------------------------------*/
 /*スマホ用cssヘッダー*/
 @media screen and (max-width:479px) {
     header {

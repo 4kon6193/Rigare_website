@@ -85,7 +85,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .drawer_menu .drawer_nav li:hover > ul > li {
-        height: 2.5rem;
+        height: 3.0rem;
         border-bottom: 1px solid #eee;
 }
 
