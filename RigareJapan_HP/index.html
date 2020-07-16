@@ -89,11 +89,11 @@
   var appear = false;
   var pagetop = $('#page_top');
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {  //100pxスクロールしたら
+    if ($(this).scrollTop() > 300) {  //300pxスクロールしたら
       if (appear == false) {
         appear = true;
         pagetop.stop().animate({
-          'right': '0px' //右から0pxの位置に
+          'right': '15px' //右から15pxの位置に
         }, 300); //0.3秒かけて現れる
       }
     } else {
